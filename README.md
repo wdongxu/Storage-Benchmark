@@ -11,7 +11,7 @@ All the detail can be found in my [blog](http://chianingwang.blogspot.com/2015/0
 ```bash
 Here are the items for the hint.
 1. You need to have openstack environment for testing
-2. You need to have proper priviledge for create VMs, volumes ...etc
+2. You need to have proper privilege for create VMs, volumes ...etc
 3. You need to have enough storage space (HDD/SSD) for benchmarking test
 4. You need to know IPs for controller and slaves ( static or float IPs )
 ```
@@ -46,7 +46,7 @@ Here are the items for the hint.
 
 #### fio Setup - mount the drives on 
 ```bash
-1 prepare vm.conf which includes all the slaves's IPs eg: vm.conf
+1 prepare vm.conf which includes all the slave's IPs eg: vm.conf
 2 ssh controller
   #ssh-keygen
 3 copy ssh keys to make sure controller can reach all the slaves
@@ -76,7 +76,7 @@ Here are the items for the hint.
 
 #### vdbench Setup - mount the drives on 
 ```bash
-1 prepare vm.conf which includes all the slaves's IPs eg: vm.conf
+1 prepare vm.conf which includes all the slave's IPs eg: vm.conf
 2 ssh controller
   #ssh-keygen
 3 copy ssh keys to make sure controller can reach all the slaves
@@ -101,5 +101,4 @@ Here are the items for the hint.
   give the seq no for last VM eg: 160
   
 ```
-
-
+Any suggestion or comment will be welcome
