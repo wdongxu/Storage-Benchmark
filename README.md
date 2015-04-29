@@ -101,4 +101,24 @@ Here are the items for the hint.
   give the seq no for last VM eg: 160
   
 ```
+#### PS Extra-Utility for fio  
+```bash
+1 run df -h on all the slaves
+  #./fio_install.sh -f vm.conf -r chk -c drive
+2 test ssh connection on all the slaves
+  #./fio_install.sh -f vm.conf -r chk -c connection
+3 run fio --version , testing on all the slaves has fio or not
+  #./fio_install.sh -f vm.conf -r chk -c test
+```
+
+#### PS Extra-Utility for vdbench  
+```bash
+1 run df -h on all the slaves
+  #./vdbench_install.sh -f vm.conf -r chk -c drive
+2 test ssh connection on all the slaves
+  #./vdbench_install.sh -f vm.conf -r chk -c connection
+3 run vdbench -t , testing on all the slaves w/o parmfile
+  #./vdbench_install.sh -f vm.conf -r chk -c test
+```
+
 Any suggestion or comment will be welcome
