@@ -81,7 +81,7 @@ Here are the items for the hint.
   #ssh-keygen
 3 copy ssh keys to make sure controller can reach all the slaves
   #./vdbench_install.sh -f vm.conf -r ssh
-4 install fio ( if guest OS ubuntu doesn't need it )
+4 install vdbench
   #./vdbench_install.sh -f vm.conf -r inst
 5 format and mount the testing drives
   #./vdbench_install.sh -f vm.conf -r fmat -d vdb
