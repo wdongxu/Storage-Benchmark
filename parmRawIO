@@ -1,0 +1,6 @@
+
+*compratio=2,
+dedupratio=2,dedupunit=4k,dedupsets=33
+sd=sd1,lun=/dev/sdb,openflags=o_direct,threads=100
+wd=wd1,sd=sd1,xfersize=(16k,20,32k,80),rdpct=20
+rd=run1,wd=wd1,iorate=max,elapsed=10,interval=1
