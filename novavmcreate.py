@@ -17,10 +17,10 @@ flavorstring="m1.small"
 #controller has 2 nic, public and private
 #slaves has only 1 nic, private
 #neutron net-list
-#public-direct-604 = 191a83f2-3de2-43f8-8ea5-b95ae3defd6e
-#nic_id1string="191a83f2-3de2-43f8-8ea5-b95ae3defd6e"
-#private-net-3006 = 556b731a-6c12-47fe-89c5-662d1ed440d8
-nic_id2string="556b731a-6c12-47fe-89c5-662d1ed440d8"
+#public-direct-604 = xxxxxxxxxa-xxxx-xxxx-xxxx-xxxxxxxxxxx
+#nic_id1string="xxxxxxxxxa-xxxx-xxxx-xxxx-xxxxxxxxxxxe"
+#private-net-3006 = xxxxxxxxxa-xxxx-xxxx-xxxx-xxxxxxxxxxx
+nic_id2string="xxxxxxxxxa-xxxx-xxxx-xxxx-xxxxxxxxxxx"
 
 VM_NAMEstring="fio-driver-"
 
